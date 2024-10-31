@@ -1,0 +1,82 @@
+.qas_grid .qas_card_wrapper {
+    position: relative;
+    width: 100%;
+    display: block;
+    vertical-align: top;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 25px;
+}
+
+.qas_grid .qas_card {
+    border: 1px solid #e7eaec;
+}
+
+.qas_grid .qas_card:hover {
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 3px 7px 0 #a8a8a8;
+    -moz-box-shadow: 0 3px 7px 0 #a8a8a8;
+    box-shadow: 0 3px 7px 0 #a8a8a8;
+}
+
+.qas_grid .qas_card_img_wrapper {
+    margin-top: 15px;
+    text-align: center;
+    min-height: 150px;
+    position: relative;
+}
+
+.qas_grid .qas_card_img_wrapper img {
+    max-width: 100%;
+    max-height: 150px;
+}
+
+.qas_grid .qas_card_img_wrapper .qas_card_saving_percent {
+    position: absolute;
+    right: -1px;
+    display: block;
+    background: #db0909;
+    padding: 4px;
+    color: white;
+    top: 10%;
+}
+
+.qas_grid .qas_card h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+    eight: 48px;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+.qas_grid .qas_card .qas_card_info {
+    padding: 15px;
+}
+
+.qas_grid .qas_card .qas_card_info_price {
+    font-weight: bold;
+}
+
+.qas_grid .qas_card .qas_card_info_striked_price {
+    font-weight: normal;
+    text-decoration: line-through;
+    color: #999;
+}
+
+.qas_grid .qas_card .qas_card_info_button {
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .qas_grid .qas_card_wrapper {
+        width: 33%;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .qas_grid .qas_card_wrapper {
+        width: 25%;
+    }
+}

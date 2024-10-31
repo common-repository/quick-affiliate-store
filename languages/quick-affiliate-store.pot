@@ -1,0 +1,11 @@
+#: public/partials/quick-affiliate-store-products-grid.php:27
+msgid "Could not find any offer corresponding to search criteria."
+msgstr ""
+
+#: quick-affiliate-store.php:86
+msgid "Settings"
+msgstr ""
+
+#: quick-affiliate-store.php:108
+msgid "Buy"
+msgstr ""
